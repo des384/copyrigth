@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
@@ -22,7 +22,7 @@
           <a href="https://api.whatsapp.com/send?phone=89993181551" class="header__whatsapp"><img
               class="header__whatsapp-img" src="images/whatsapp.png" alt=""></a>
           <a class="header__telegram" href="https://telegram.im/@pravo124"><img src="images/telegram.png" alt=""
-              class="header__telegram-img"></img></a>
+              class="header__telegram-img"></a>
         </div>
       </div>
     </div>
@@ -48,7 +48,7 @@
       </div>
     </div>
   </section>
-  <section class="problem">
+  <div class="problem">
     <div class="container">
       <div class="problem__inner">
         <div class="problem__img"></div>
@@ -67,7 +67,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </div>
   <section class="work">
     <div class="container__fluid">
       <h2 class="work__title main__title">Как Это <span>работает?</span></h2>
@@ -325,7 +325,7 @@
     <h3 class="modal__title">
       Заявка на контент план для сайта
     </h3>
-    <form class="modal__form" action="#" method="#" >
+    <form class="modal__form">
       <label class="modal__label">
         <sub>Ваш сайт</sub>
         <input name="site" type="text" placeholder="WWW.SITE.RU" required>
@@ -336,13 +336,13 @@
       </label>
       <label class="modal__label">
         <sub>Ваш E-mail</sub>
-        <input name="mail" type="mail" placeholder="info@mail.ru" required>
+        <input name="modal__mail" type="email" placeholder="info@mail.ru" required>
       </label>
   <div class="checkbox__wrapper">    
   <input type="checkbox" class="checkbox__policy">
   <label class="modal__checkbox">
-  <p class="checkbox__text">Даю согласие
-    на обработку персональных данных</p>
+  <span class="checkbox__text">Даю согласие
+    на обработку персональных данных</span>
 </label>
 </div>
 <button class="modal__btn btn" type="submit">Получить контент план</button>
