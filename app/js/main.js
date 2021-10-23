@@ -55,3 +55,5 @@ $(window).on("scroll", function () {
 $(".totop").on("click", function () {
   $("html, body").animate({ scrollTop: 0 }, 500);
 });
+
+AOS.init();

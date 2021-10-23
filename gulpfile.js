@@ -39,9 +39,10 @@ function images() {
 }
 
 function scripts() {
-  return src([
-     'node_modules/@fancyapps/ui/dist/fancybox.umd.js',  
+  return src([      
     'node_modules/jquery/dist/jquery.js',
+    'node_modules/@fancyapps/ui/dist/fancybox.umd.js',
+    'node_modules/aos/dist/aos.js',     
     'app/js/main.js'
   ])
     .pipe(concat('main.min.js'))

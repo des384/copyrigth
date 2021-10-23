@@ -20,6 +20,7 @@
     "jquery": "^3.5.1"
   },
   "dependencies": {
-    "@fancyapps/ui": "^4.0.5"
+    "@fancyapps/ui": "^4.0.5",
+    "aos": "^2.3.4"
   }
 }
