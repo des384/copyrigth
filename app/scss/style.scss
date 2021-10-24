@@ -115,23 +115,26 @@
     }
 }
 .intro__block-info{
-    padding-left: 60px;
+    padding-left: 20px;
     span{
         font-size: 24px;
         line-height: 28.8px;
         font-weight: 500;
-        display: inline-block;
+        display: block;
         margin-bottom: 20px;
+        text-align: center;
     }
     ul{
         margin-left: 50px;
         margin-bottom: 80px;
-        list-style: none;
+        // list-style: none;
+        padding: 0 10px;
     }
     li{
         font-size: 18px;
-        line-height: 21.6px;
+        line-height: 23.6px;
         font-weight: 300;
+        
     }
 }
 
@@ -251,7 +254,8 @@
 }
 .plan__info{   
     ul{
-     list-style: none;
+    //  list-style: none;
+    padding: 0 10px;
     }
 }
 .plan__img{

@@ -246,11 +246,17 @@
         li{
             font-size: 16px;
         }
+       
     }
     .problem__title {
         text-align: center;
     }
-    .problem__text,
+    .problem__text{
+        p{
+            font-size: 16px;
+        }
+    }
+    
     .work__item-info,
     .promo__info,
     .next__box-text{
@@ -284,6 +290,9 @@
         li, p{
            font-size: 16px; 
            text-align: center;
+        }
+        li{
+            text-align: left;
         }        
     }
     .example__subtitle,
