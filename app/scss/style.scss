@@ -126,14 +126,13 @@
     }
     ul{
         margin-left: 50px;
-        margin-bottom: 80px;
-        // list-style: none;
+        margin-bottom: 80px;        
         padding: 0 10px;
     }
     li{
         font-size: 18px;
         line-height: 23.6px;
-        font-weight: 300;
+        font-weight: 400;
         
     }
 }
@@ -253,8 +252,7 @@
     }
 }
 .plan__info{   
-    ul{
-    //  list-style: none;
+    ul{    
     padding: 0 10px;
     }
 }
@@ -309,8 +307,7 @@
         
         span{
             display: block;
-            text-align: center;
-            // border-left: 1px solid #000;
+            text-align: center;            
             font-size: 16px;
             line-height: 19.2px;
             font-weight: 400;
@@ -443,12 +440,12 @@
 
 .price{
     padding: 80px 0;
-    background-image: url(../images/price-bg.jpg);
+    background-image: url(../images/price-bg.webp);
     background-size: cover;
     background-position: center;
     &__title{
         padding-bottom: 50px;
-        margin-bottom: 30px;
+        margin-bottom: 45px;        
         position: relative;
         &:after{
             position: absolute;
@@ -463,7 +460,7 @@
     &__inner{
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-start;
         margin-bottom: 70px;
     }
     &__info{
@@ -472,7 +469,7 @@
 
 }
 .price__info{
-    // padding: 40px 0;
+   
     &-subtitle{
         margin-bottom: 10px;
         font-size: 20px;
@@ -481,7 +478,7 @@
     }
    
     &-list{
-        list-style-type: circle;
+        list-style-type: disc;
         font-size: 18px;
         line-height: 21.6px;
         font-weight: 400;
@@ -625,6 +622,9 @@ ul.price__info-ul{
 .totop:hover{
     transform: scale(1.2);
 }
+
+
+/*Modal Window*/
 
 .modal__window{
     max-width: 380px;

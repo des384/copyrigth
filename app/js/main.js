@@ -1,26 +1,5 @@
-// $(function () {
 
-// })
-
-/*Tabs*/
-
-// $(document).ready(function() {
-//     $('.question__item').on('click', function() {
-//       $('.question__answer').toggle('slow');
-//     });
-//   });
-
-//   $(document).ready(function() {
-//     $('.question__item-two').on('click', function() {
-//       $('.question__answer-two').toggle('slow');
-//     });
-//   });  
-
-//   $(document).ready(function() {
-//     $('.question__item-three').on('click', function() {
-//       $('.question__answer-three').toggle('slow');
-//     });
-//   }); 
+/*Tabs*/ 
 
 $(document).ready(function() {
   $('.question__item').on('click', function() {

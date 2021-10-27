@@ -4,10 +4,12 @@
     }
     
     .price__inner{
-        flex-direction: column-reverse;        
+        flex-direction: column-reverse; 
+        align-items: center;       
     }
     .price__title{
         text-align: center;
+
     }
     .price__title{
         margin-bottom: 40px;
@@ -130,8 +132,7 @@
 }
 .intro__btn{
     display: block;
-    margin: 0 auto;
-    // text-align: center;
+    margin: 0 auto;   
 }
 
 }
@@ -318,9 +319,12 @@
     .price__item-package{
         font-size: 28px;
     }
+    .price__info-text{
+        padding-left: 26px;
+    }
     .price__info-list,
     .price__info-text{
-        font-size: 16px;
+        font-size: 16px;        
     }
     .footer__inner{
         p{
